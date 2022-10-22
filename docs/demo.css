@@ -1,0 +1,25 @@
+.grid-example {
+    background-color: #eee;
+    margin-bottom: 60px;
+    border-radius: 3px;
+    padding: 15px 0;
+    overflow: hidden;
+}
+
+.grid-example-div {
+    background-color: #339be8;
+    height: 70px;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.grid-example-div p, .grid-example-square p {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    font-size: 15px;
+}
+
+

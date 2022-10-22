@@ -1,0 +1,34 @@
+{
+  "name": "1px",
+  "version": "0.0.1",
+  "description": "1px css framework",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass 1px.scss dist/1px.css",
+    "autoprefixer": "postcss --no-map -u autoprefixer -r dist/1px.css",
+    "cssnano": "postcss --no-map -u cssnano -o dist/1px.min.css dist/1px.css",
+    "build": "run-s sass autoprefixer cssnano"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/academmia/1px.git"
+  },
+  "keywords": [
+    "1px",
+    "css",
+    "framework"
+  ],
+  "author": "Daniel Turcu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/academmia/1px/issues"
+  },
+  "homepage": "https://github.com/academmia/1px#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.12",
+    "cssnano": "^5.1.13",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^10.0.0",
+    "sass": "^1.55.0"
+  }
+}
